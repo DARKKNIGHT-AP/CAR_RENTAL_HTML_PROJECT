@@ -1,0 +1,108 @@
+/* for the form shown on the homwpage */
+/* setting display to inline block
+element becomes a block as well as inline but width can still be altered 
+with position absolute , position is set with respect to the parent element*/
+.blwleft{
+    display: inline-block;
+    color: white;
+    margin: 19px auto;
+    padding:12px;
+    width: 45%;
+    height: 40%;
+}
+.find{
+    margin-left: 23px;
+    padding: 33px 31px;
+}
+#ideal{
+    color: antiquewhite;
+    text-align: center;
+    font-size: 42px;
+    margin: 5px;
+    height: 50px;
+
+}
+/* syling the label */
+label{
+    font-size: 36px;
+}
+.date{
+    display: inline-block;
+}
+#pick{
+        margin: 0px;
+}
+#drop{
+    margin: 12px;
+    padding-top: 8px;
+    padding-left: 55px;
+    padding-bottom: 7px;
+    padding-right: 12px;
+}
+
+#drop{
+
+    margin: 18px;
+}
+#pck,#drp{
+    text-align: center;
+    font-stretch: wider;
+    font-variant: small-caps;
+    width: 171px;
+    padding: 10px;
+    margin-left: 5px;
+    font-size: 23px;
+    border-radius: 12px;
+    background-color:black;
+    color:antiquewhite;
+    opacity: 0.8;
+}
+.purpose{
+    font-size: 26px ;
+}
+#guest{
+    color: rgb(243, 233, 190);
+}
+.timings{
+    /* border: 2px solid blue; */
+    width: 542px;
+}
+#tim{
+    font-stretch: expanded;
+    font-variant: small-caps;
+    background-color:black;
+    color:antiquewhite;
+    opacity: 0.7;
+     font-size: 18px;
+     padding: 10px;
+     margin: 0px 26px;
+     margin-bottom: 12px;
+     border-radius: 23px;
+}
+#loc{
+    font-family: 'Baloo Bhai 2', cursive;
+    width: 100%;
+    border-radius: 34px;
+    padding:5px;
+    text-align: center;
+    font-size: 23px;
+    background-color:black;
+    color:antiquewhite;
+    opacity: 0.7;
+}
+#sub{
+    border:2px solid;
+    border-radius: 23px;
+    background: black;
+    color:antiquewhite;
+    opacity: 0.7;
+    cursor: pointer;
+    width: 68%;
+    font-size: 28px;
+    font-family: 'Baloo Bhai 2', cursive;
+    padding:16px;
+    margin-bottom: 0px;
+     margin-top: 22px;
+         margin-right: 21px;
+       margin-left: 73px;
+}

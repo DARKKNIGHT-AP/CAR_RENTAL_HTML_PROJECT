@@ -1,0 +1,107 @@
+/* for the section containing the popular locations */
+.blwright{
+    position: absolute;
+    top:335px;
+    right:10px;
+    /* border: 3px dotted khaki; */
+    color: white;
+    margin: 12px auto;
+    width:50%;
+    /* height: 100%; */
+}
+.box{
+    margin:2px;
+    color: black;
+    /* background-color: aqua; */
+    /* border: 2px solid seagreen; */
+}
+/* USING GRID PROPERTY */
+.popular{
+    display: grid;
+    /* dividing into two equal parts columns */
+    grid-template-columns: 1fr 1fr;
+    /* dividing into two equal parts rows */
+    grid-template-rows: 266px 266px;
+}
+.blwright  h3{
+    font-size: 41px;
+    text-align: center;
+    margin-top: 22px;
+    color:antiquewhite;
+    /* opacity: 0.97; */    
+}
+.blwright .box h3{
+    opacity: 0.86;
+    color:antiquewhite;
+    font-size: 37px;
+    text-align: center;
+    margin-top: 0px;
+    height: 15px;
+}
+/* BANGALORE */
+#bang img{
+   width: 100px;
+height: 125px;
+margin: 64px 13px;
+border:2px solid transparent;
+border-radius: 14px;
+float: left;
+opacity: 0.70;
+}
+.bang{
+    opacity: 0.97;
+    color:antiquewhite;
+    display: inline;
+}
+
+/*  NOIDA*/
+#noida img{
+   width: 100px;
+height: 125px;
+margin: 64px 13px;
+border:2px solid transparent;
+border-radius: 14px;
+float: left;
+opacity: 0.84;
+}
+.noida{
+    opacity: 0.97;
+    color:antiquewhite;
+    display: inline;
+}
+
+
+/*  JALANDHAR*/
+#jal img{
+   width: 129px;
+height: 125px;
+margin: 64px 13px;
+border:2px solid transparent;
+border-radius: 14px;
+float: left;
+opacity: 0.90;
+}
+.jal{
+    opacity: 0.97;
+    color:antiquewhite;
+    display: inline;
+}
+
+
+/*  HYDERABAD*/
+#hyd img{
+   width: 100px;
+height: 125px;
+margin: 64px 13px;
+border:2px solid transparent;
+border-radius: 14px;
+float: left;
+opacity: 0.84;
+}
+.hyd{
+    opacity: 0.97;
+    color:antiquewhite;
+    display: inline;
+}
+
+

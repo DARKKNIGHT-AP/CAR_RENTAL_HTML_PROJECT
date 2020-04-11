@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WWW.CAR-O-RENT.COM | Offerring the best services</title>
+    <!-- including font from an external source -->
+    <link href="https://fonts.googleapis.com/css?family=Baloo+Bhai+2&display=swap" rel="stylesheet">
+    <!-- inlcuding css files -->
+    <link rel="stylesheet" href="CSS/head.css">
+    <link rel="stylesheet" href="CSS/left.css">
+    <link rel="stylesheet" href="CSS/right.css">
+    <link rel="stylesheet" href="CSS/middle.css">
+    <style>
+        /* styling the body */
+        body {
+            font-family: 'Baloo Bhai 2', cursive;
+            background: url('img/back/back1.jpg') no-repeat center center/cover ;
+            background-size: cover;
+            background-attachment: scroll;
+        }
+        /* stlying the footer */
+        .foot{
+            width: 100%;
+            height: 34px;
+            padding: 16px;
+             margin-left: -8px;  
+            font-size: large;
+            background-color: black;
+            color: white;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <!-- creating a header part with class header -->
+    <header class="header">
+        <div class="left">
+            <a href="index.html"><img src="img/icons/logo1.png" alt="Offerring the best services"></a>
+        </div>
+        <div class="mid">
+            <div>
+                <p title="LET YOUR JOURNEY START">Renting Made Easy</p>
+            </div>
+        </div>
+        <!-- navigation menu with login sign up and other features -->
+        <div class="right">
+            <ul class="navbar">
+                <li><a href="#">Sign UP</a></li>
+                <li><a href="login.html" target="_blank">Login</a></li>
+                <li><a href="#">Manage Booking</a></li>
+                <li><a href="#">Popular Locations</a></li>
+            </ul>
+        </div>
+    </header>
+    <!-- header closed here -->
+    <!-- the section for finding dream car -->
+    <div class="container">
+        <div class="hire">
+            <h3> Hire Your Dream Car Now !! - Search, Compare & Save</h3>
+        </div>
+    </div>
+    <div class="blwleft">
+        <h3 id="ideal">Let's Find Your Ideal Car</h3>
+        <form action="#" class="find">
+            <!-- selecting the desired location -->
+            <label for="loc">Pick up location</label><br>
+            <select name="places" id="loc">
+                <!-- various options with one being default selected -->
+                <option selected>Select your location</option>
+                <option value="Delhi">Delhi</option>
+                <option value="Bangalore">Bangalore</option>
+                <option value="Jalandhar">Jalandhar</option>
+                <option value="Phagwara">Phagwara</option>
+                <option value="Hyderabad">Hyderabad</option>
+                <option value="Jaipur">Jaipur</option>
+                <option value="Noida">Noida</option>
+                <option value="Dalhousie">Dalhousie</option>
+                <option value="Pune">Pune</option>
+            </select><br>
+            <!-- for pick up date -->
+            <div class="date">
+                <div id="pick" class="date">
+                    <label for="pck">Pick up date</label><br>
+                    <input type="date" id="pck" required>
+                </div>
+                <!-- for drop off date -->
+                <div id="drop" class="date">
+                    <label for="drp">Drop off date</label><br>
+                    <input type="date" id="drp" required><br>
+                </div>
+            </div>
+            <!-- selecting purpose i.e business or leisure -->
+            <div class="purpose">
+                <label for="purp">Purpose of rental</label>&nbsp;&nbsp;&nbsp;
+                <span id="guest">Business<input type="radio" id="purp" name="type"></span><span id="guest">Leisure<input type="radio" id="purp" name="type"></span><br>
+            </div>
+            <!-- for timings  -->
+            <div class="timings">
+                <label for="tim">Timings</label>
+                <input type="time" id="tim" required>TO
+                <input type="time" id="tim" required><br>
+            </div>
+            <button type="submit" id="sub">Search</button>
+        </form>
+    </div>
+    <!-- section showing some of the popular locations -->
+    <div class="blwright">
+        <h3>Our Most Popular Destinations</h3>
+        <div class="popular">
+            <div class="box" id="bang">
+                <!-- including a image for a particular location -->
+                <img src="img/icons/bangalore.jpg" alt="Bangalore">
+                <div class="bang">
+                    <h3>Bangalore</h3>
+                    <p style="font-size: 18px;">
+                        The City Of Lakes, Malgudi Day's Inspiration, Home to Bugle Rock, India’s Silicon Valley, Mecca of startups,
+                        Oldest Army Regiments,<br>Do Give A Visit Here
+                    </p>
+                </div>
+            </div>
+            <div class="box" id="noida">
+                <!-- including a image for a particular location -->
+                <img src="img/icons/noida1.jpg" alt="">
+                <div class="noida">
+                    <h3>Noida</h3>
+                    <p style="font-size: 21px;">
+                    Biggest Malls, Largest Indoor Snow Park, The Film Studios, Home To Most Of News Channels,<br>Come And Enjoy !!
+                </p>
+            </div>
+        </div>
+        <div class="box" id="jal">
+            <!-- including a image for a particular location -->
+                <img src="img/icons/jal.jpg" alt="">
+                <div class="jal">
+                    <h3>Jalandhar</h3>
+                    <p style="font-size: 19px;">
+                        The City Of Sports, Old Capital Of Punjab, Home To <abbr title="All India Radio">AIR</abbr>, A Clean & Green City,
+                        The Oldest Cantonement,<br>A Wonderful Place
+                    </p>
+                </div>
+            </div>
+            <div class="box" id="hyd">
+                <!-- including a image for a particular location -->
+                <img src="img/icons/hyd.jpg" alt="">
+                <div class="hyd">
+                <h3>Hyderabad</h3>
+                <p style="font-size: 19px;">
+                    The City Of Pearls, Home To Kohinoor, The Film City, The Biryani Paradise, A Clean & Green City,
+                    Tea Lovers Rejoice!,<br>Do Give A Visit Here
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- footer included here -->
+    <footer class="foot">
+        Copyright &copy; <strong>www.car-o-rent.com</strong> &nbsp;All Rights Reserved  &nbsp;!
+    </footer>
+</body>
+</html>

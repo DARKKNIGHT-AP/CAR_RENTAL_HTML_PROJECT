@@ -1,0 +1,52 @@
+/* for header tag */
+.header{
+    background-color:black;
+    margin-top: 0;
+}
+/* setting display to inline block
+element becomes a block as well as inline but width can still be altered 
+with position absolute , position is set with respect to the parent element*/
+.left{
+    display: inline-block;
+    position:absolute;
+}
+/* invert function is used here to cause inversion of contrast in the included image */
+.left img{
+    width: 251px;
+     height: 184px;
+     filter:invert(100%);
+}
+.mid{
+    display: inline-block;
+    width: 29%;
+    /* margin from top-bottom and left-right */
+    margin: 20px 246px;
+}
+ .mid p{
+    font-size: 43px;
+    color:antiquewhite;      
+    padding-left: 33px;
+ } 
+.right{
+    position: absolute;
+    right: 18px;
+    top: 126px;
+}
+/* the list where login sign up etc. are */
+.right li{
+    display: inline-block;
+    padding-right: 18px;
+    font-size: 22px;
+}
+/* stlying the anchor tag contents */
+.right li a{
+    text-decoration:none;
+    color:antiquewhite;
+    padding:11px 20px;
+}
+/* creating a hover effect for naviagtion i.e login sign up */
+.right li a:hover{
+    border: 2px solid aliceblue;
+    border-radius: 20px;
+    color:rgb(243, 197, 81);
+}
